@@ -147,7 +147,7 @@ def process_tile(i, current_date, next_date, date_str):
         print(f"Tile {i}: {output_path} already exists. Skipping export.")
         return output_path
 
-    # ✅ **EXPORT THE IMAGE**
+    # **EXPORT THE IMAGE**
     try:
         print(f"Downloading image for Tile {i}: {output_path}")
         start_time = time.time()
